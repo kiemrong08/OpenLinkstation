@@ -49,7 +49,7 @@ InitVal() {
 	# package detail can be found on: https://packages.debian.org/squeeze/all/debootstrap/download
 	if [ "x$DEBOOTSTRAP" = "xdebootstrap" ]; then
 		DEBOOTSTRAP_PATH=/pool/main/d/debootstrap
-		[ $DISTRO = "wheezy" ] && DEBOOTSTRAP_DEB=debootstrap_1.0.48+deb7u2_all.deb
+		[ $DISTRO = "wheezy" ] && DEBOOTSTRAP_DEB=debootstrap_1.0.48+deb7u4_all.deb
 		[ $DISTRO = "jessie" ] && DEBOOTSTRAP_DEB="debootstrap_1.0.64~bpo70+1_all.deb"
 		DEBOOTSTRAP_OPT=
 		DPKG_DEBOOTSTRAP_OPT=
